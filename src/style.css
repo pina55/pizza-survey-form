@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: url(https://previews.123rf.com/images/melazerg/melazerg1709/melazerg170900085/86203781-cute-seamless-background-of-delicious-pizza-slices-hand-drawn-illustration.jpg)
+    no-repeat fixed center;
+}
+
+#body {
+  background-color: rgba(255, 100, 220, 0.7);
+  width: 35rem;
+  margin: auto;
+  padding: 30px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: left;
+}
+
+#description,
+#title {
+  background-color: orange;
+  width: 50rem;
+  margin: auto auto 10px;
+  border-radius: 4px;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  width: 500px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+#comment {
+  width: 500px;
+}
+#submit {
+  width: 500px;
+  background-color: green;
+  font-size: 16px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+#submit:hover {
+  color: white;
+  font-size: 19px;
+}

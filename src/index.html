@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizaz Lovers Survey</title>
+</head>
+
+<body>
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+  <h1 id="title"> Pizza Lovers Survey Form</h1>
+
+  <p id="description"> Thank you for taking your time for the survey while i am waiting for my pizza</p>
+  <div id="body">
+    <form id="survey-form">
+      <label id="name-label" for="name">
+        <p>Name:</p>
+      </label>
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+
+      <label id="email-label" for="email">
+        <p>Email:</p>
+      </label>
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+
+      <label id="number-label" for="number">
+        <p>Age:</p>
+      </label>
+      <input id="number" type="number" placeholder="Enter Your Age" min "10" max"55"required>
+      <p> Which Pizza Do You Think Makes Your Day Better?</p>
+      <select id="dropdown">
+        <option value="mozarella">Mozarella</option>
+        <option value="cheese">Formaggio</option>
+        <option value="chicken">Chicken</option>
+        <option value="vegan">Vegan</option>
+        <option value="no">But i dont like Pizza,I love Noodle</option>
+
+      </select>
+
+      <p> Would you like to share your pizza?</p>
+      <input type="radio" name="share" value="1"> Yeah sure but no (:</input>
+      <br>
+      <input type="radio" name="share" value="2"> Maybe with love of my life</input>
+      <br>
+      <input type="radio" name="share" value="3"> Impossiblo</input>
+
+      <p> In Which Places would like to eat your pizza?</p>
+      <input type="checkbox" name="place" value="1"> At home</input>
+      <br>
+      <input type="checkbox" name="place" value="2"> In the car</input>
+      <br>
+      <input type="checkbox" name="place" value="3"> Bathroom, crying</input>
+      <br>
+      <input type="checkbox" name="place" value="4"> On the roof</input>
+      <br>
+      <textarea id="comment" name="comment" rows="4" cols="40">
+    Add your comment here
+</textarea>
+      <br>
+      <input id="submit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+</body>
+
+</html>
